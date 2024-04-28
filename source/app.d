@@ -34,7 +34,7 @@ import provision.androidlibrary;
 __gshared string libraryPath;
 
 enum brandingCode = format!"anisette-v3-server v%s"(provisionVersion);
-enum clientInfo = "<MacBookPro13,2> <macOS;13.1;22C65> <com.apple.AuthKit/1 (com.apple.dt.Xcode/3594.4.19)>";
+enum clientInfo = "<iPhone7,2> <iPhone OS;10.2;14C92> <com.apple.akd/1.0 (com.apple.akd/1.0)>";
 enum dsId = -2;
 
 __gshared ADI v1Adi;
